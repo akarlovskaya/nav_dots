@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Test</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- <script src="modernizr.js"></script> -->
+	<script src="scripts.js"></script>
+
+
+</head>
+<body>
+	<!-- Side dots navigation -->
+	<a class="dn-nav-trigger dn-img-replace">Open Navigation</a>
+	<nav id="dn-vertical-nav" >
+		<ul>
+			<li>
+				<a href="#section1" data-number="1">
+					<span class="dn-dot"></span>
+					<span class="dn-label">Stress Relief</span>
+				</a>
+			</li>
+	    <li>
+	      <a href="#section2" data-number="2">
+	        <span class="dn-dot"></span>
+	        <span class="dn-label">Massage</span>
+	      </a>
+	    </li>
+	    <li>
+	      <a href="#section3" data-number="3">
+	        <span class="dn-dot"></span>
+	        <span class="dn-label">Anti-aging</span>
+	      </a>
+	    </li>
+	    <li>
+	      <a href="#section4" data-number="4">
+	        <span class="dn-dot"></span>
+	        <span class="dn-label">Pain Relief</span>
+	      </a>
+	    </li>
+		</ul>
+	</nav>
+
+	<section class="blurb_section">
+	  <h1>The Benefits of <abbr title="Cannabidiol">CBD</abbr></h1>
+	  <p>Five-Lvs products are infused with the active ingredient cannabidiol (CBD), a hemp extract known for it&rsquo;s excellent cell repair and healin properties.</p>
+	</section>
+
+	<section class="section_wrapper " id="section1">
+	  <div class="explore">
+	    <div class="text_wrapper">
+	      <h2>Stress Relief</h2>
+	      <p>Apply to wrists, temples, and neck area to escape into the soothing release.</p>
+	      <a href=" <?php echo $block->getUrl('stress.html');?> ">Explore More</a>
+	    </div>
+	  </div>
+	  <div class="product_img">
+	  </div>
+	</section>
+
+	<section class="section_wrapper " id="section2">
+	  <div class="explore">
+	    <div class="text_wrapper">
+	      <h2>Massage</h2>
+	      <p>Relax, relieve tension, soothe sore muscles, and moisturize your skin with quality oils and cbd extract for a divine experience.</p>
+	      <a href=" <?php echo $block->getUrl('massage.html');?> ">Explore More</a>
+	    </div>
+	  </div>
+	</section>
+
+	<section class="section_wrapper " id="section3">
+	  <div class="explore">
+	    <div class="text_wrapper">
+	      <h2>Anti-aging</h2>
+	      <p>Feel rejuvenated and reduce fine lines and wrinkles while leaving the skin naturally smooth and hydrated. Helps retaim a youthful look with powerful antioxidants and a healing blend of essential oils.</p>
+	      <a href=" <?php echo $block->getUrl('anti-aging.html');?> ">Explore More</a>
+	    </div>
+	  </div>
+	</section>
+
+	<section class="section_wrapper " id="section4">
+
+	  <div class="explore">
+	    <div class="text_wrapper">
+	      <h2>Pain Relief</h2>
+	      <p>Apply to temples, back of the neck, and forehead to alleviate headaches and reduce the intensity of migraines.</p>
+	      <a href=" <?php echo $block->getUrl('pain.html');?> ">Explore More</a>
+	    </div>
+	  </div>
+	</section>
+
+<!-- https://codyhouse.co/gem/vertical-fixed-navigation/ -->
+
+</body>
+</html>
